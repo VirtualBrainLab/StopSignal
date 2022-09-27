@@ -1,5 +1,5 @@
 # Stop Signal
-Simple Arduino sketch that sends a stop signal over serial whenever pin 2 is low. For use with the [NP Trajectory Planner Sensapex Link](https://github.com/VirtualBrainLab/nptraj-sensapex-link).
+Simple Arduino sketch that sends a stop signal over serial whenever pin 2 is low. For use with [Pinpoint (electrophysiology planning tool)](https://github.com/VirtualBrainLab/Pinpoint).
 
 # Requireemnts
 - Any Arduino which supports [`attachInterrupt`](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/) on pin 2 (the specific pin can be edited later if desired)
