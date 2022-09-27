@@ -1,5 +1,5 @@
 # Stop Signal
-Simple Arduino sketch that sends a stop signal over serial whenever pin 2 is low. For use with [Pinpoint (electrophysiology planning tool)](https://github.com/VirtualBrainLab/Pinpoint).
+Simple Arduino sketch that sends a stop signal over serial whenever pin 2 is low. For use with [Ephys Link](https://github.com/VirtualBrainLab/ephys-link).
 
 # Requireemnts
 - Any Arduino which supports [`attachInterrupt`](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/) on pin 2 (the specific pin can be edited later if desired)
