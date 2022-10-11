@@ -1,10 +1,10 @@
-const byte interruptPin = 2;
+#define INTERRUPT_PIN 2
 
 void setup() {
   Serial.begin(9600);
 
-  pinMode(interruptPin, INPUT_PULLUP);
-  attachInterrupt(digitalPinToInterrupt(interruptPin), sendStop, LOW);
+  pinMode(INTERRUPT_PIN, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(INTERRUPT_PIN), sendStop, LOW);
 }
 
 void loop() {}
